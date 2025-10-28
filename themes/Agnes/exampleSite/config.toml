@@ -1,7 +1,7 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Agnes Site"
-theme = "Agnes"
+theme = "agnes-hugo-theme"
 
 [params]
 	dateFormat = "Jan 2, 2023" 
@@ -35,32 +35,30 @@ theme = "Agnes"
 	FacebookURL = "https://facebook.com/podbharati"
 		
 [params.content]
-	LeadTitle = "Maria Frutuoso"
-	LeadDescription = "Consultoria especializada"
-	SubDescription = "Cuidados com a saúde e bem estar, oferecendo planos que atendem sua necessidade!"
-	
-	ButtonCaption = "Fale conosco"
-	ButtonURL = "https://api.whatsapp.com/send?phone=92991852037"
+	LeadTitle = "Landing template for Startups"
+	LeadDescription = "Our landing page template works for all the devices, so you only have to setup it once, and get beautiful results forever."
+	ButtonCaption = "Pricing & Plans"
+	ButtonURL = "http://google.com"
 
 ################### Feature Columns (do not exceed 4) ####################
 
 [[params.feature]]
-	FeatureTitle = "Odontológico"
+	FeatureTitle = "Feature 1"
 	FeatureDescription = "A pseudo-Latin text used in web design, layout, and printing in place of English to emphasise design elements."
 	FeatureImage = "images/feature-1.png"
 	
 [[params.feature]]
-	FeatureTitle = "Individual"
+	FeatureTitle = "Feature 2"
 	FeatureDescription = "A pseudo-Latin text used in web design, layout, and printing in place of English to emphasise design elements."
 	FeatureImage = "images/feature-2.png"
 
 [[params.feature]]
-	FeatureTitle = "Empresarial"
+	FeatureTitle = "Feature 3"
 	FeatureDescription = "A pseudo-Latin text used in web design, layout, and printing in place of English to emphasise design elements."
 	FeatureImage = "images/feature-3.png"
 	
 [[params.feature]]
-	FeatureTitle = "Familiar"
+	FeatureTitle = "Feature 4"
 	FeatureDescription = "A pseudo-Latin text used in web design, layout, and printing in place of English to emphasise design elements."
 	FeatureImage = "images/feature-4.png"
 	
@@ -94,16 +92,16 @@ theme = "Agnes"
 	[[params.pricing.Features]]
 		Description = "Lorem ipsum is common text"		
 	
-# [[params.pricing]]
-#	PricingTitle = "Business"
-#	PricingRate = "147"
-#	ButtonCaption = "Get Earliest Access"
- #	ButtonURL = "https://example.com/earliest-access.html"
-#	[[params.pricing.Features]]
-#		Description = "Lorem ipsum is common text"
-#	[[params.pricing.Features]]
-#		Description = "Lorem ipsum is common text"
-#	[[params.pricing.Features]]
-#		Description = "Lorem ipsum is common text"
-#	[[params.pricing.Features]]
-#		Description = "Lorem ipsum is common text" 
+[[params.pricing]]
+	PricingTitle = "Business"
+	PricingRate = "147"
+	ButtonCaption = "Get Earliest Access"
+ 	ButtonURL = "https://example.com/earliest-access.html"
+	[[params.pricing.Features]]
+		Description = "Lorem ipsum is common text"
+	[[params.pricing.Features]]
+		Description = "Lorem ipsum is common text"
+	[[params.pricing.Features]]
+		Description = "Lorem ipsum is common text"
+	[[params.pricing.Features]]
+		Description = "Lorem ipsum is common text"	
