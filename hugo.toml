@@ -107,3 +107,7 @@ theme = "Agnes"
 #		Description = "Lorem ipsum is common text"
 #	[[params.pricing.Features]]
 #		Description = "Lorem ipsum is common text" 
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
