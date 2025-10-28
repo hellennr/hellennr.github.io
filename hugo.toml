@@ -3,6 +3,34 @@ languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'loficode'
 
+[params]
+  [params.author]
+    author = "Hellen Rodrigues"
+    description = "Your site description"
+
+  # Profile section
+  [params.profile]
+    name = "Hellen Rodrigues"
+    tagline = "Your tagline here"
+    photo = "/images/profile.png"
+
+  # Social links - Supported platforms: github, twitter, linkedin, email, mastodon, youtube, instagram, facebook
+  [params.social]
+    github = "github.com/hellennr"
+    # linkedin = "your-linkedin-username"
+    email = "hellen@icomp.ufam.edu.br"
+
+# Navigation menu
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 10
+
+[[menu.main]]
+  name = "Contact"
+  url = "/contact/"
+  weight = 20
+
   [caches]
   [caches.images]
     dir = ':cacheDir/images'
