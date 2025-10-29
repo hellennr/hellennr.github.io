@@ -86,7 +86,7 @@
 						<path fill="#FFF" d="M200 31h88v88h-88z"
 							style="mix-blend-mode:multiply;filter:url(#dropshadow-1)" />
 						<path fill="#FFF" d="M200 31h88v88h-88z" />
-						<image class="triangulo" href="/static/foto.png" x="24" y="248" width="88" height="88"
+						<image class="triangulo" href="/images/foto.png" x="24" y="113" width="160" height="200"
 							preserveAspectRatio="xMidYMid slice" />
 
 						<rect fill="url(#hero-illustration-d)" x="335" y="242" width="32" height="32" rx="16" />
@@ -120,7 +120,7 @@
 	<div class="section-square"></div>
 	<div class="container">
 		<div class="pricing-inner section-inner has-top-divider">
-			<h2 class="section-title mt-0 text-center">Pricing</h2>
+			<h2 class="section-title mt-0 text-center">Preços</h2>
 			<div class="pricing-tables-wrap">
 				{{ range site.Params.pricing }}
 				<div class="pricing-table">
@@ -129,8 +129,8 @@
 							<div class="pricing-table-header is-revealing">
 								<div class="pricing-table-title mt-12 mb-8">{{ .PricingTitle }}</div>
 								<div class="pricing-table-price mb-32 pb-24"><span
-										class="pricing-table-price-currency h4">$</span><span
-										class="pricing-table-price-amount h2">{{ .PricingRate }}</span>/mo</div>
+										class="pricing-table-price-currency h4">R$</span><span
+										class="pricing-table-price-amount h2">{{ .PricingRate }}</span>/mensal</div>
 							</div>
 							<ul class="pricing-table-features list-reset text-xs mt-24 mb-56">
 								{{ range .Features }}

@@ -5,7 +5,7 @@ theme = "Agnes"
 
 [params]
 	dateFormat = "Jan 2, 2023" 
-	authorName = "Ported to Hugo by Debashish"
+	authorName = "hellen"
 	google_analytics_id = "GA-"
 	
 [menu]
@@ -30,14 +30,14 @@ theme = "Agnes"
 		weight = 4
 		
 [params.social]
-	TwitterURL = "https://twitter.com/podbharati"
+	TwitterURL = "https://twitter.com/"
 	GoogleURL = "http://google.com"
-	FacebookURL = "https://facebook.com/podbharati"
+	FacebookURL = "https://facebook.com/"
 		
 [params.content]
-	LeadTitle = "Maria Frutuoso"
-	LeadDescription = "Consultoria especializada"
-	SubDescription = "Cuidados com a saúde e bem estar, oferecendo planos que atendem sua necessidade!"
+	LeadTitle = "MF Planos de Saúde"
+	LeadDescription = "Consultoria especializada em Planos de Saúde"
+	SubDescription = "Na MF Planos de Saúde, oferecemos consultoria personalizada para que você escolha o plano que realmente atende às suas necessidades. Saúde, bem-estar e tranquilidade para o seu dia a dia!"
 	
 	ButtonCaption = "Fale conosco"
 	ButtonURL = "https://api.whatsapp.com/send?phone=92991852037"
@@ -46,44 +46,44 @@ theme = "Agnes"
 
 [[params.feature]]
 	FeatureTitle = "Odontológico"
-	FeatureDescription = "A pseudo-Latin text used in web design, layout, and printing in place of English to emphasise design elements."
+	FeatureDescription = "Sorrir faz bem à saúde! Com nossos planos odontológicos, você garante consultas, limpezas, restaurações e diversos procedimentos com uma ampla rede de dentistas credenciados, tudo por um valor acessível."
 	FeatureImage = "images/feature-1.png"
 	
 [[params.feature]]
 	FeatureTitle = "Individual"
-	FeatureDescription = "A pseudo-Latin text used in web design, layout, and printing in place of English to emphasise design elements."
+	FeatureDescription = "Planos feitos sob medida para quem busca segurança e praticidade. Ideal para quem quer cobertura completa, atendimento rápido e liberdade para escolher entre diversas operadoras."
 	FeatureImage = "images/feature-2.png"
 
 [[params.feature]]
 	FeatureTitle = "Empresarial"
-	FeatureDescription = "A pseudo-Latin text used in web design, layout, and printing in place of English to emphasise design elements."
+	FeatureDescription = "Valorize seus colaboradores com planos empresariais flexíveis e com cobertura nacional. A saúde da sua equipe é o investimento mais inteligente que sua empresa pode fazer."
 	FeatureImage = "images/feature-3.png"
 	
 [[params.feature]]
 	FeatureTitle = "Familiar"
-	FeatureDescription = "A pseudo-Latin text used in web design, layout, and printing in place of English to emphasise design elements."
+	FeatureDescription = "Proteja quem você ama com um plano completo para toda a família. Cobertura médica e hospitalar em todo o Brasil, com condições especiais e benefícios exclusivos."
 	FeatureImage = "images/feature-4.png"
 	
 ################### Pricing Columns (do not exceed 3) ####################
 
 [[params.pricing]]
-	PricingTitle = "Starter"
-	PricingRate = "27"	
-	ButtonCaption = "Get Early Access"
+	PricingTitle = "Inicial"
+	PricingRate = "150"	
+	ButtonCaption = "Contrate agora!"
  	ButtonURL = "https://example.com/early-access.html"
 	[[params.pricing.Features]]
-		Description = "Lorem ipsum is common text"
+		Description = "blabla"
 	[[params.pricing.Features]]
-		Description = "Lorem ipsum is common text"
+		Description = "blabla"
 	[[params.pricing.Features]]
-		Description = "Lorem ipsum is common text"
+		Description = "blabla"
 	[[params.pricing.Features]]
-		Description = "Lorem ipsum is common text"	
+		Description = "blabla"	
 
 [[params.pricing]]
-	PricingTitle = "Professional"
-	PricingRate = "97"
-	ButtonCaption = "Get Earlier Access"
+	PricingTitle = "Conjunto"
+	PricingRate = "450"
+	ButtonCaption = "Contrate agora!"
  	ButtonURL = "https://example.com/earlier-access.html"
 	[[params.pricing.Features]]
 		Description = "Lorem ipsum is common text"
